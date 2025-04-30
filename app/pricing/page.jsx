@@ -16,7 +16,6 @@ export default function Pricing() {
 
   useEffect(() => {
     setMounted(true)
-    // Set theme to dark by default
     setTheme('dark')
   }, [setTheme])
 
@@ -226,25 +225,31 @@ export default function Pricing() {
               <div className='space-y-6'>
                 {[
                   {
-                    question: 'How does the subscription work?',
+                    question: 'How does Skybeen help with exam preparation?',
                     answer:
-                      'We offer both free and premium plans. The free plan gives you access to basic features, while the premium plan unlocks all features including unlimited question paper generation, advanced analytics, and teacher tools.',
+                      'Skybeen uses AI to automatically generate exams, assignments, and question papers based on your class, subject, and topic. This helps students practice smarter and teachers save time in content creation.',
                   },
                   {
-                    question: 'Can I cancel my subscription anytime?',
+                    question: 'Can I use Skybeen in my preferred language?',
                     answer:
-                      "Yes, you can cancel your subscription at any time. If you cancel, you'll still have access to premium features until the end of your current billing period.",
+                      'Yes! Skybeen supports multiple Indian languages including English, Hindi, and Assamese. Students and teachers can choose their preferred language for exams, study materials, and assignments.',
+                  },
+                  {
+                    question: 'Is Skybeen free to use?',
+                    answer:
+                      'Skybeen offers a free plan with access to essential learning tools. For access to advanced features like unlimited AI exam creation, analytics, group sharing, and premium study sets, you can upgrade to a low-cost premium plan.',
                   },
                   {
                     question:
-                      'Is there a discount for educational institutions?',
+                      'How can teachers use Skybeen in classrooms or coaching centers?',
                     answer:
-                      'Yes, we offer special pricing for schools, colleges, and educational institutions. Please contact our sales team for more information on bulk licensing and institutional pricing.',
+                      'Teachers can create groups for their classes, share assignments, live tests, and track student progress. Skybeen also allows them to customize content by class level, subject, and difficulty, all in their local language.',
                   },
                   {
-                    question: 'Can teachers monetize their content on Skybeen?',
+                    question:
+                      'Can students use Skybeen for board or entrance exam preparation?',
                     answer:
-                      'Yes, teachers on the Premium plan can create and share their study materials, question papers, and teaching methodologies on our platform and earn revenue when students access their premium content.',
+                      "Yes! Skybeen is designed for students from Class 6 to college level. Whether you're preparing for board exams or entrance tests, you can generate topic-wise practice papers, attempt mock exams, and improve your weak areas.",
                   },
                 ].map((faq, index) => (
                   <div

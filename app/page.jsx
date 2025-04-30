@@ -16,6 +16,9 @@ import {
   Rocket,
   Users,
   BookOpen,
+  ShieldCheck,
+  Target,
+  TrendingUp,
 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
@@ -119,7 +122,9 @@ export default function Home() {
             <div className='absolute bottom-1/4 right-1/5 w-[350px] h-[350px] rounded-full bg-indigo-700/25 blur-[120px]'></div>
 
             {/* Grid pattern */}
-            <div className="absolute inset-0 bg-[url('/placeholder.svg?height=1080&width=1920')] bg-center opacity-[0.05]"></div>
+            <div className="absolute inset-0 bg-[url('/logo.png?height=1000&width=1000')] bg-center bg-no-repeat opacity-[0.03]"></div>
+
+            {/* <div className="absolute inset-0 bg-[url('/logo.png?height=500&width=500')] bg-center opacity-[0.05]"></div> */}
 
             {/* Animated particles */}
             <div className='absolute inset-0'>
@@ -209,6 +214,22 @@ export default function Home() {
                   className='grid gap-6 sm:grid-cols-3 mt-10 max-sm:px-4'
                 >
                   <QuickStatsCard
+                    icon={<ShieldCheck className='h-6 w-6 text-blue-400' />}
+                    value='100%'
+                    label='Secure & Private'
+                  />
+                  <QuickStatsCard
+                    icon={<Target className='h-6 w-6 text-purple-400' />}
+                    value='Maximized'
+                    label='Focus on Learning'
+                  />
+                  <QuickStatsCard
+                    icon={<TrendingUp className='h-6 w-6 text-green-400' />}
+                    value='Grow Faster'
+                    label='Accelerate Your Success'
+                  />
+
+                  {/* <QuickStatsCard
                     icon={<Users className='h-6 w-6 text-green-400' />}
                     value='15,000+'
                     label='Active Students'
@@ -222,7 +243,7 @@ export default function Home() {
                     icon={<Brain className='h-6 w-6 text-blue-400' />}
                     value='95%'
                     label='Satisfaction Rate'
-                  />
+                  /> */}
                 </motion.div>
               </motion.div>
 
@@ -329,13 +350,13 @@ export default function Home() {
                       <h3 className='text-2xl font-bold mb-3'>{item.title}</h3>
                       <p className='text-white/80 mb-6'>{item.description}</p>
 
-                      <Link
+                      {/* <Link
                         href={item.link}
                         className='inline-flex items-center text-green-400 font-medium'
                       >
                         <span>Discover More</span>
                         <ArrowRight className='h-5 w-5 ml-2 transition-transform group-hover:translate-x-1' />
-                      </Link>
+                      </Link> */}
                     </div>
                   </motion.div>
                 ))}

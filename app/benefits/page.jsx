@@ -29,7 +29,6 @@ export default function Benefits() {
 
   useEffect(() => {
     setMounted(true)
-    // Set theme to dark by default
     setTheme('dark')
   }, [setTheme])
 
@@ -199,7 +198,7 @@ export default function Benefits() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.5, delay: 0.5 }}
-                    className='mt-12 p-8 rounded-2xl border border-white/10 bg-gradient-to-br from-green-900/30 to-indigo-900/30 backdrop-blur-sm'
+                    className='mt-12 hidden p-8 rounded-2xl border border-white/10 bg-gradient-to-br from-green-900/30 to-indigo-900/30 backdrop-blur-sm'
                   >
                     <div className='flex flex-col md:flex-row items-center gap-6'>
                       <div className='md:w-2/3'>
@@ -318,7 +317,7 @@ export default function Benefits() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.5, delay: 0.5 }}
-                    className='mt-12 p-8 rounded-2xl border border-white/10 bg-gradient-to-br from-green-900/30 to-indigo-900/30 backdrop-blur-sm'
+                    className='mt-12 p-8 hidden rounded-2xl border border-white/10 bg-gradient-to-br from-green-900/30 to-indigo-900/30 backdrop-blur-sm'
                   >
                     <div className='flex flex-col md:flex-row items-center gap-6'>
                       <div className='md:w-2/3'>

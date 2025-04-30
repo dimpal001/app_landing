@@ -101,29 +101,34 @@ export default function About() {
                 className='space-y-6'
               >
                 <h2 className='text-3xl font-bold'>
-                  From a Simple Idea to an{' '}
+                  From Struggle to{' '}
                   <span className='bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-indigo-400'>
-                    Educational Revolution
+                    Smarter Learning
                   </span>
                 </h2>
+
                 <p className='text-white/70 text-lg'>
-                  Skybeen was born from a simple observation: despite India's
-                  rich educational heritage, many students struggle with
-                  outdated learning methods that don't adapt to their individual
-                  needs.
+                  Skybeen started in 2024 as my personal mission — built from
+                  scratch to make learning smarter, smoother, and more
+                  accessible for every student in India.
                 </p>
+
                 <p className='text-white/70 text-lg'>
-                  Our founders, a team of educators and AI specialists, came
-                  together in 2021 with a mission to democratize quality
-                  education and make it accessible to every student in India,
-                  regardless of their location or background.
+                  I realized that even young students are always on their phones
+                  — and instead of stopping them, why not guide them to use it
+                  for something valuable? That's where Skybeen comes in —
+                  turning screen time into learning time.
                 </p>
+
                 <p className='text-white/70 text-lg'>
-                  What started as a small project has now grown into a
-                  comprehensive learning platform that serves thousands of
-                  students and teachers across the country, combining the power
-                  of artificial intelligence with human creativity to create a
-                  truly transformative educational experience.
+                  With AI-powered tools and practical content, Skybeen isn’t
+                  just another app — it’s a smart companion for students and
+                  teachers who want better results without outdated methods.
+                </p>
+
+                <p className='text-white/70 text-lg'>
+                  I believe smart tools should be used for smart growth — and
+                  that’s exactly what Skybeen offers.
                 </p>
               </motion.div>
             </div>
@@ -157,23 +162,27 @@ export default function About() {
                     </span>
                   </h2>
                   <p className='text-white/70 text-lg'>
-                    We envision a world where students become smarter, not lazy,
-                    and teachers work smarter, not creatively limited. Our AI
-                    tools are designed to enhance human potential, not replace
-                    it.
+                    At Skybeen, we envision a world where students learn
+                    smarter, not harder — and teachers save time while
+                    delivering more impact.
                   </p>
                   <p className='text-white/70 text-lg'>
-                    At Skybeen, we believe that technology should serve as a
-                    catalyst for human growth and development, especially in
-                    education.
+                    Our AI-powered tools assist teachers by reducing repetitive
+                    tasks like paper checking, content preparation, and test
+                    creation, freeing them to do what truly matters — mentoring
+                    and inspiring.
+                  </p>
+                  <p className='text-white/70 text-lg'>
+                    We don’t replace teachers — we support them. Technology
+                    should enhance creativity, not limit it.
                   </p>
 
-                  <div className='pt-4'>
+                  {/* <div className='pt-4'>
                     <Button className='bg-gradient-to-r from-green-600 to-indigo-600 hover:from-green-700 hover:to-indigo-700 text-white border-0 rounded-full'>
                       Learn More
                       <ArrowRight className='h-4 w-4 ml-2' />
                     </Button>
-                  </div>
+                  </div> */}
                 </div>
               </motion.div>
 
@@ -189,22 +198,27 @@ export default function About() {
                   </Badge>
                   <h2 className='text-3xl font-bold tracking-tight'>
                     <span className='bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-indigo-400'>
-                      Accessible
+                      Smarter
                     </span>{' '}
-                    Intelligence
+                    Education for All
                   </h2>
                   <p className='text-white/70 text-lg'>
-                    To make high-quality education accessible and intelligent,
-                    helping students learn efficiently and enabling teachers to
-                    focus more on mentoring and innovation.
+                    Our mission is to build a learning platform that’s
+                    intelligent, inclusive, and truly helpful. We make smart
+                    education tools available to everyone — whether you're in a
+                    city or a village.
                   </p>
                   <p className='text-white/70 text-lg'>
-                    We're committed to continuous improvement—we'll never stop
-                    evolving our platform to meet the changing needs of
-                    education in India and beyond.
+                    Skybeen is built for real-world impact — where students grow
+                    independently, and teachers get more time to guide,
+                    innovate, and inspire.
+                  </p>
+                  <p className='text-white/70 text-lg'>
+                    We're not chasing trends — we're solving real problems in
+                    education, one smart feature at a time.
                   </p>
 
-                  <div className='pt-4'>
+                  {/* <div className='pt-4'>
                     <Button
                       variant='outline'
                       className='border-white/10 text-white hover:bg-white/10 rounded-full'
@@ -212,7 +226,7 @@ export default function About() {
                       Our Approach
                       <ArrowRight className='h-4 w-4 ml-2' />
                     </Button>
-                  </div>
+                  </div> */}
                 </div>
               </motion.div>
             </div>
@@ -252,34 +266,34 @@ export default function About() {
             <div className='grid gap-6 md:grid-cols-2 lg:grid-cols-3 max-w-5xl mx-auto'>
               {[
                 {
-                  title: 'Student-Centered Innovation',
+                  title: 'Built Around Students',
                   description:
-                    "We put students' needs at the center of everything we build, ensuring our technology serves their educational journey.",
+                    'Everything we create is designed to help students learn smarter, faster, and with less stress — not just digital tools, but real learning aids.',
                 },
                 {
-                  title: 'Ethical AI Development',
+                  title: 'Smart Use of AI',
                   description:
-                    'We develop AI that enhances human potential rather than replacing it, with transparency and fairness as guiding principles.',
+                    'We smartly use AI technologies to make learning more intuitive, efficient, and personalized for everyone.',
                 },
                 {
-                  title: 'Inclusive Education',
+                  title: 'Simple. Powerful. Accessible.',
                   description:
-                    "We're committed to making quality education accessible to all students, regardless of location, background, or resources.",
+                    'Our platform turns complex tech into easy, meaningful learning — so every student, no matter their background, can benefit from it.',
                 },
                 {
-                  title: 'Teacher Empowerment',
+                  title: 'Helping Teachers, Not Replacing Them',
                   description:
-                    'We build tools that free teachers from administrative burdens so they can focus on what they do best: inspiring students.',
+                    'We create tools that reduce repetitive tasks, letting teachers focus on what truly matters: mentoring and motivating students.',
                 },
                 {
-                  title: 'Continuous Improvement',
+                  title: 'Always Getting Better',
                   description:
-                    "We're never satisfied with the status quo, constantly evolving our platform based on research and user feedback.",
+                    'We listen, learn, and improve. Our platform evolves with user feedback and educational needs — not trends.',
                 },
                 {
-                  title: 'Data Privacy & Security',
+                  title: 'Privacy First',
                   description:
-                    'We treat user data with the utmost respect, implementing rigorous security measures and transparent privacy practices.',
+                    'User trust matters. We handle all data responsibly, with full respect for privacy and transparency — always.',
                 },
               ].map((value, index) => (
                 <motion.div
@@ -295,146 +309,6 @@ export default function About() {
                   <div className='relative z-10'>
                     <h3 className='text-xl font-bold mb-3'>{value.title}</h3>
                     <p className='text-white/70'>{value.description}</p>
-                  </div>
-                </motion.div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Team */}
-        <section className='py-16 md:py-24 relative'>
-          <div className='absolute inset-0 z-0'>
-            <div className='absolute top-0 left-0 right-0 h-[200px] bg-gradient-to-b from-black to-transparent'></div>
-            <div className='absolute bottom-0 left-0 right-0 h-[200px] bg-gradient-to-t from-black to-transparent'></div>
-            <div className='absolute top-1/3 right-1/4 w-[300px] h-[300px] rounded-full bg-green-700/10 blur-[100px]'></div>
-          </div>
-
-          <div className='container relative z-10 px-4 md:px-6 mx-auto'>
-            <motion.div
-              initial='hidden'
-              whileInView='visible'
-              viewport={{ once: true }}
-              variants={fadeInUp}
-              className='max-w-3xl mx-auto text-center mb-16'
-            >
-              <h2 className='text-3xl md:text-4xl font-bold tracking-tight'>
-                Meet Our{' '}
-                <span className='bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-indigo-400'>
-                  Team
-                </span>
-              </h2>
-              <p className='text-white/70 text-lg mt-4'>
-                The passionate individuals behind Skybeen who are dedicated to
-                transforming education in India.
-              </p>
-            </motion.div>
-
-            <div className='grid gap-6 md:grid-cols-2 lg:grid-cols-4 max-w-5xl mx-auto'>
-              {[
-                {
-                  name: 'Rajiv Sharma',
-                  role: 'Founder & CEO',
-                  image: '/placeholder.svg?height=300&width=300&text=RS',
-                },
-                {
-                  name: 'Priya Patel',
-                  role: 'Chief Technology Officer',
-                  image: '/placeholder.svg?height=300&width=300&text=PP',
-                },
-                {
-                  name: 'Amit Kumar',
-                  role: 'Head of AI Research',
-                  image: '/placeholder.svg?height=300&width=300&text=AK',
-                },
-                {
-                  name: 'Neha Singh',
-                  role: 'Chief Education Officer',
-                  image: '/placeholder.svg?height=300&width=300&text=NS',
-                },
-                {
-                  name: 'Vikram Reddy',
-                  role: 'Product Director',
-                  image: '/placeholder.svg?height=300&width=300&text=VR',
-                },
-                {
-                  name: 'Ananya Desai',
-                  role: 'UX Design Lead',
-                  image: '/placeholder.svg?height=300&width=300&text=AD',
-                },
-                {
-                  name: 'Sanjay Mehta',
-                  role: 'Marketing Director',
-                  image: '/placeholder.svg?height=300&width=300&text=SM',
-                },
-                {
-                  name: 'Leela Krishnan',
-                  role: 'Customer Success Lead',
-                  image: '/placeholder.svg?height=300&width=300&text=LK',
-                },
-              ].map((member, index) => (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: index * 0.05 }}
-                  className='group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm hover:bg-white/10 transition-all duration-300'
-                >
-                  <div className='relative'>
-                    <img
-                      src={member.image || '/placeholder.svg'}
-                      alt={member.name}
-                      className='w-full h-auto'
-                    />
-                    <div className='absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end'>
-                      <div className='p-4'>
-                        <div className='flex gap-2'>
-                          <a
-                            href='#'
-                            className='text-white/80 hover:text-white transition-colors'
-                          >
-                            <svg
-                              xmlns='http://www.w3.org/2000/svg'
-                              width='20'
-                              height='20'
-                              viewBox='0 0 24 24'
-                              fill='none'
-                              stroke='currentColor'
-                              strokeWidth='2'
-                              strokeLinecap='round'
-                              strokeLinejoin='round'
-                            >
-                              <path d='M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z'></path>
-                              <rect width='4' height='12' x='2' y='9'></rect>
-                              <circle cx='4' cy='4' r='2'></circle>
-                            </svg>
-                          </a>
-                          <a
-                            href='#'
-                            className='text-white/80 hover:text-white transition-colors'
-                          >
-                            <svg
-                              xmlns='http://www.w3.org/2000/svg'
-                              width='20'
-                              height='20'
-                              viewBox='0 0 24 24'
-                              fill='none'
-                              stroke='currentColor'
-                              strokeWidth='2'
-                              strokeLinecap='round'
-                              strokeLinejoin='round'
-                            >
-                              <path d='M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z'></path>
-                            </svg>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className='p-4'>
-                    <h3 className='text-lg font-bold'>{member.name}</h3>
-                    <p className='text-white/70'>{member.role}</p>
                   </div>
                 </motion.div>
               ))}
@@ -477,7 +351,7 @@ export default function About() {
                   <div className='flex flex-col sm:flex-row gap-4 justify-center'>
                     <Button
                       size='lg'
-                      className='bg-gradient-to-r from-green-600 to-indigo-600 hover:from-green-700 hover:to-indigo-700 text-white border-0 rounded-full'
+                      className='bg-gradient-to-r h-14 from-green-600 to-indigo-600 hover:from-green-700 hover:to-indigo-700 text-white border-0 rounded-full'
                     >
                       <Download className='h-5 w-5 mr-2' />
                       <span>Download App</span>
@@ -486,7 +360,7 @@ export default function About() {
                       <Button
                         size='lg'
                         variant='outline'
-                        className='border-white/20 text-white hover:bg-white/10 rounded-full'
+                        className='border-white/20 h-14 text-white hover:bg-white/10 rounded-full'
                       >
                         <span>Contact Us</span>
                         <ArrowRight className='h-4 w-4 ml-2' />

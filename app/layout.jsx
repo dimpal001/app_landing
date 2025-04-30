@@ -5,9 +5,9 @@ import { ThemeProvider } from '@/components/theme-provider'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Skybeen - AI-Powered Educational App',
+  title: 'Skybeen - Smart Learning for Students and Teachers',
   description:
-    'The next-generation learning platform that combines AI intelligence with human creativity to boost academic performance.',
+    'Skybeen is a next-generation educational platform that helps students prepare better and teachers teach smarter with automatic exam creation, multi-language support, and classroom tools.',
   generator: 'v0.dev',
 }
 

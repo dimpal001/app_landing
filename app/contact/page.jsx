@@ -110,12 +110,11 @@ export default function Contact() {
                       </div>
                       <div>
                         <h3 className='text-lg font-semibold mb-1'>Email</h3>
-                        <p className='text-white/70'>contact@Skybeenapp.com</p>
-                        <p className='text-white/70'>support@Skybeenapp.com</p>
+                        <p className='text-white/70'>contact@skybeen.com</p>
                       </div>
                     </div>
 
-                    <div className='flex items-start gap-4'>
+                    {/* <div className='flex items-start gap-4'>
                       <div className='p-3 rounded-xl bg-gradient-to-br from-green-600/20 to-indigo-600/20 backdrop-blur-md'>
                         <div className='bg-gradient-to-r from-green-500 to-indigo-500 rounded-lg p-2 text-white'>
                           <Phone className='h-5 w-5' />
@@ -123,12 +122,11 @@ export default function Contact() {
                       </div>
                       <div>
                         <h3 className='text-lg font-semibold mb-1'>Phone</h3>
-                        <p className='text-white/70'>+91 1234567890</p>
-                        <p className='text-white/70'>+91 9876543210</p>
+                        <p className='text-white/70'>+91 0000000000</p>
                       </div>
-                    </div>
+                    </div> */}
 
-                    <div className='flex items-start gap-4'>
+                    {/* <div className='flex items-start gap-4'>
                       <div className='p-3 rounded-xl bg-gradient-to-br from-green-600/20 to-indigo-600/20 backdrop-blur-md'>
                         <div className='bg-gradient-to-r from-green-500 to-indigo-500 rounded-lg p-2 text-white'>
                           <MapPin className='h-5 w-5' />
@@ -145,13 +143,14 @@ export default function Contact() {
                         </p>
                         <p className='text-white/70'>India</p>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
 
                   <div className='pt-6'>
                     <h3 className='text-lg font-semibold mb-3'>Follow Us</h3>
                     <div className='flex gap-4'>
                       <a
+                        target='_blank'
                         href='#'
                         className='p-3 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 transition-colors'
                       >
@@ -171,6 +170,7 @@ export default function Contact() {
                         </svg>
                       </a>
                       <a
+                        target='_blank'
                         href='#'
                         className='p-3 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 transition-colors'
                       >
@@ -190,7 +190,8 @@ export default function Contact() {
                         </svg>
                       </a>
                       <a
-                        href='#'
+                        target='_blank'
+                        href='https://www.instagram.com/skybeenofficial?igsh=MXhhd3h1d3Jyd2NmZQ=='
                         className='p-3 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 transition-colors'
                       >
                         <svg
@@ -218,6 +219,7 @@ export default function Contact() {
                         </svg>
                       </a>
                       <a
+                        target='_blank'
                         href='#'
                         className='p-3 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 transition-colors'
                       >
@@ -324,34 +326,6 @@ export default function Contact() {
           </div>
         </section>
 
-        {/* Map Section */}
-        <section className='py-16 md:py-24 relative'>
-          <div className='absolute inset-0 z-0'>
-            <div className='absolute top-0 left-0 right-0 h-[200px] bg-gradient-to-b from-black to-transparent'></div>
-            <div className='absolute bottom-0 left-0 right-0 h-[200px] bg-gradient-to-t from-black to-transparent'></div>
-            <div className='absolute top-1/3 left-1/4 w-[300px] h-[300px] rounded-full bg-green-700/10 blur-[100px]'></div>
-          </div>
-
-          <div className='container relative z-10 px-4 md:px-6 mx-auto'>
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-              className='relative overflow-hidden rounded-3xl border border-white/10 max-w-5xl mx-auto'
-            >
-              <div className='absolute -inset-0.5 bg-gradient-to-r from-green-600/20 to-indigo-600/20 opacity-20 blur-xl'></div>
-              <div className='relative'>
-                <img
-                  src='/placeholder.svg?height=400&width=1000&text=Map+Location'
-                  alt='Office Location Map'
-                  className='w-full h-auto'
-                />
-              </div>
-            </motion.div>
-          </div>
-        </section>
-
         {/* CTA Section */}
         <section className='py-16 md:py-24 relative'>
           <div className='absolute inset-0 z-0'>
@@ -389,7 +363,7 @@ export default function Contact() {
                   <div className='flex flex-col sm:flex-row gap-4 justify-center'>
                     <Button
                       size='lg'
-                      className='bg-gradient-to-r from-green-600 to-indigo-600 hover:from-green-700 hover:to-indigo-700 text-white border-0 rounded-full'
+                      className='bg-gradient-to-r h-14 from-green-600 to-indigo-600 hover:from-green-700 hover:to-indigo-700 text-white border-0 rounded-full'
                     >
                       <Download className='h-5 w-5 mr-2' />
                       <span>Download App</span>

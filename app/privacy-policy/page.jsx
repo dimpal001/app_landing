@@ -80,88 +80,147 @@ export default function PrivacyPolicy() {
             >
               <div className='space-y-4'>
                 <h2 className='text-2xl md:text-3xl font-bold'>
-                  1. Information We Collect
+                  Information We Collect
                 </h2>
                 <p className='text-white/70'>
-                  We collect personal information you provide such as your name,
-                  email address, and any other details you choose to share when
-                  you use Skybeenapp. We may also collect technical data like
-                  your IP address, device type, and usage information.
+                  Skybeen collects both personal and non-personal information to
+                  provide a seamless and personalized experience. Personal data
+                  may include your name, email address, phone number, date of
+                  birth, school or institution name, class level, and academic
+                  interests. We also collect technical data such as IP address,
+                  device type, device identifiers, browser type, operating
+                  system, network information, and app usage behavior. If you
+                  interact with AI features or generate exams, your input may
+                  also be temporarily stored to improve response accuracy.
                 </p>
               </div>
 
               <div className='space-y-4'>
                 <h2 className='text-2xl md:text-3xl font-bold'>
-                  2. How We Use Your Information
+                  How We Use Your Information
                 </h2>
                 <p className='text-white/70'>
-                  We use your information to provide, maintain, and improve our
-                  services, communicate with you, personalize your experience,
-                  and ensure the security of our platform. We may also use data
-                  for analytics and research purposes.
+                  The information we collect is used to operate, maintain, and
+                  enhance the Skybeen App and its services. This includes
+                  personalizing educational recommendations, generating AI-based
+                  content, providing customer support, enforcing user
+                  agreements, improving product performance, analyzing usage
+                  trends, and communicating important updates or promotional
+                  offers. Some data may be aggregated and anonymized for
+                  research, academic reporting, or to enhance our AI systems.
                 </p>
               </div>
 
               <div className='space-y-4'>
                 <h2 className='text-2xl md:text-3xl font-bold'>
-                  3. Sharing of Information
+                  Sharing of Information
                 </h2>
                 <p className='text-white/70'>
-                  We do not sell or rent your personal information. We may share
-                  information with trusted service providers who assist us in
-                  operating our platform, under strict confidentiality
-                  agreements. We may also share information if required by law
-                  or to protect our rights.
+                  We do not sell or rent your personal data. Information may be
+                  shared with trusted third-party service providers such as
+                  analytics platforms, cloud hosting providers, payment
+                  gateways, and notification systems, strictly for the purposes
+                  of running the platform. These partners are bound by
+                  confidentiality and data protection agreements. We may also
+                  disclose information to law enforcement or government
+                  authorities when legally required, or if we believe such
+                  disclosure is necessary to protect our rights, ensure user
+                  safety, or comply with legal processes.
                 </p>
               </div>
 
               <div className='space-y-4'>
                 <h2 className='text-2xl md:text-3xl font-bold'>
-                  4. Data Security
+                  Data Security
                 </h2>
                 <p className='text-white/70'>
-                  We implement strong security measures to protect your
-                  information. However, no system can guarantee 100% security,
-                  and you use our platform at your own risk.
+                  We implement administrative, technical, and physical
+                  safeguards to protect your information from unauthorized
+                  access, disclosure, or misuse. This includes encrypted
+                  communication, role-based access control, and secure data
+                  storage practices. However, no system is entirely immune to
+                  breaches, and by using Skybeen, you acknowledge that you use
+                  our services at your own risk. If we detect a security
+                  incident that affects your personal data, we will notify you
+                  in accordance with applicable laws.
                 </p>
               </div>
 
               <div className='space-y-4'>
                 <h2 className='text-2xl md:text-3xl font-bold'>
-                  5. Your Rights
+                  Your Rights and Choices
                 </h2>
                 <p className='text-white/70'>
-                  You have the right to access, update, or delete your personal
-                  information. You may also opt out of certain communications by
-                  following the unsubscribe link provided in our emails.
+                  You have the right to access, correct, or delete your personal
+                  information stored on Skybeen. You may request account
+                  deletion at any time by contacting our support team. You also
+                  have the right to opt out of non-essential communications such
+                  as promotional emails. We honor user privacy preferences to
+                  the extent legally and technically feasible, and we comply
+                  with rights under applicable data protection laws.
                 </p>
               </div>
 
               <div className='space-y-4'>
                 <h2 className='text-2xl md:text-3xl font-bold'>
-                  6. Changes to This Policy
+                  AI and Automated Systems
                 </h2>
                 <p className='text-white/70'>
-                  We may update this Privacy Policy from time to time. We
-                  encourage you to review it periodically. Continued use of our
-                  services after changes means you accept the updated policy.
+                  Skybeen uses artificial intelligence and automation to
+                  generate study materials, exams, and feedback. We currently
+                  utilize AI models provided by third-party providers such as
+                  OpenAI and DeepSeek to power these features. While user
+                  interactions with AI tools may be temporarily stored for
+                  performance monitoring, quality assurance, or to improve
+                  future responses, this data is not used for profiling,
+                  advertising, or automated decisions that significantly affect
+                  user rights. We encourage users to critically review
+                  AI-generated content and share feedback to help us ensure its
+                  accuracy, relevance, and fairness.
                 </p>
               </div>
 
               <div className='space-y-4'>
                 <h2 className='text-2xl md:text-3xl font-bold'>
-                  7. Contact Us
+                  Children's Privacy
                 </h2>
                 <p className='text-white/70'>
-                  If you have any questions about our Privacy Policy, please
-                  contact us at{' '}
+                  Skybeen is designed for students aged 6 and above. We do not
+                  knowingly collect personal information from children under 13
+                  without verified parental or school administrator consent. If
+                  we become aware that personal data of a child under 13 has
+                  been collected without proper authorization, we will delete
+                  such information promptly.
+                </p>
+              </div>
+
+              <div className='space-y-4'>
+                <h2 className='text-2xl md:text-3xl font-bold'>
+                  Changes to This Privacy Policy
+                </h2>
+                <p className='text-white/70'>
+                  Skybeen may update this Privacy Policy periodically to reflect
+                  technological, legal, or operational changes. Users will be
+                  notified of significant updates through app notifications or
+                  email. Continued use of the app after updates constitutes your
+                  acceptance of the revised policy. We encourage you to review
+                  this page regularly to stay informed.
+                </p>
+              </div>
+
+              <div className='space-y-4'>
+                <h2 className='text-2xl md:text-3xl font-bold'>Contact Us</h2>
+                <p className='text-white/70'>
+                  For questions, concerns, or data-related requests, please
+                  contact our privacy officer at{' '}
                   <a
-                    href='mailto:privacy@skybeenapp.com'
+                    href='mailto:privacy@skybeen.com'
                     className='text-green-400 hover:underline'
                   >
-                    privacy@skybeenapp.com
+                    privacy@skybeen.com
                   </a>
-                  .
+                  . We are committed to addressing user concerns promptly and
+                  transparently.
                 </p>
               </div>
             </motion.div>
