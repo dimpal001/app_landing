@@ -260,9 +260,10 @@ export default function Home() {
                   {/* Phone mockup */}
                   <div className='relative z-10 rounded-3xl overflow-hidden border border-white/20 shadow-2xl'>
                     <img
-                      src='/placeholder.svg?height=650&width=325&text=Skybeen+App'
+                      src='/hero.jpg'
+                      // src='/placeholder.svg?height=650&width=325&text=Skybeen+App'
                       alt='Skybeen App Preview'
-                      className='w-[325px] h-[650px] object-cover'
+                      className='w-[325px] h-[590px] object-cover'
                     />
 
                     {/* Floating UI elements */}
