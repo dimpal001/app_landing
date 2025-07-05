@@ -16,6 +16,7 @@ import { Textarea } from '@/components/ui/textarea'
 import { Badge } from '@/components/ui/badge'
 import { useTheme } from 'next-themes'
 import Navbar from '@/components/navbar'
+import Footer from '@/components/footer'
 
 export default function Contact() {
   const { theme, setTheme } = useTheme()
@@ -375,6 +376,8 @@ export default function Contact() {
           </div>
         </section>
       </main>
+
+      <Footer />
     </div>
   )
 }

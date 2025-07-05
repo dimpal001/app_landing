@@ -6,16 +6,11 @@ import Link from 'next/link'
 import {
   Brain,
   Download,
-  Play,
   Sparkles,
-  ArrowRight,
   Cpu,
   FileText,
   LineChart,
   Layers,
-  Rocket,
-  Users,
-  BookOpen,
   ShieldCheck,
   Target,
   TrendingUp,
@@ -25,10 +20,8 @@ import { Badge } from '@/components/ui/badge'
 import { useTheme } from 'next-themes'
 import { useIsMobile } from '@/hooks/use-mobile'
 import Navbar from '@/components/navbar'
+import Footer from '@/components/footer'
 import Features from './features/page'
-import Benefits from './benefits/page'
-import Pricing from './pricing/page'
-import Logo from '../assets/skybeen_logo.png'
 
 // New Quick Stats Card Component
 const QuickStatsCard = ({ icon, value, label }) => (
@@ -53,14 +46,13 @@ export default function Home() {
   const [mounted, setMounted] = useState(false)
   const heroRef = useRef(null)
 
-  // Parallax effect for hero section
   const { scrollY } = useScroll()
   const heroY = useTransform(scrollY, [0, 500], [0, -150])
   const heroOpacity = useTransform(scrollY, [0, 300], [1, 0.3])
 
   useEffect(() => {
     setMounted(true)
-    setTheme('dark') // Set theme to dark by default
+    setTheme('dark')
   }, [setTheme])
 
   if (!mounted) return null
@@ -186,27 +178,6 @@ export default function Home() {
                     সহজ, শক্তিশালী উপায়ৰে অধ্যয়ন কৰক। দ্রুত উন্নতি কৰক, ডাঙৰ
                     সপোন দেখক, সফলতা লাভ কৰক।
                   </p>
-                </motion.div>
-
-                <motion.div
-                  variants={fadeInUp}
-                  className='flex flex-col sm:flex-row gap-4 mt-8'
-                >
-                  <Button
-                    size='lg'
-                    className='bg-gradient-to-r from-green-600 to-indigo-600 hover:from-green-700 hover:to-indigo-700 text-white border-0 h-14 px-8 rounded-full'
-                  >
-                    <Rocket className='h-5 mr-2' />
-                    <span>Start Learning</span>
-                  </Button>
-                  <Button
-                    size='lg'
-                    variant='outline'
-                    className='border-white/20 hover:bg-white/10 h-14 px-8 rounded-full'
-                  >
-                    <Play className='h-5 mr-2' />
-                    <span>Watch Demo</span>
-                  </Button>
                 </motion.div>
 
                 <motion.div
@@ -431,13 +402,9 @@ export default function Home() {
         <section className='mt-10'>
           <Features />
         </section>
-        <section>
-          <Benefits />
-        </section>
-        <section>
-          <Pricing />
-        </section>
       </main>
+
+      <Footer />
     </div>
   )
 }

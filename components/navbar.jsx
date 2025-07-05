@@ -3,14 +3,12 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { useTheme } from 'next-themes'
 import { useIsMobile } from '@/hooks/use-mobile'
-import { Sun, Moon, Menu, X } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
 import Logo from '../assets/skybeen_logo.png'
 import Image from 'next/image'
 
 export default function Navbar() {
-  const { theme, setTheme } = useTheme()
   const isMobile = useIsMobile()
   const [mounted, setMounted] = useState(false)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -24,6 +22,7 @@ export default function Navbar() {
 
   const navItems = [
     { name: 'Home', path: '/' },
+    { name: 'About', path: '/about' },
     { name: 'Terms & Conditions', path: '/terms-and-conditions' },
     { name: 'Privacy Policy', path: '/privacy-policy' },
     // { name: 'Features', path: '/features' },
@@ -31,7 +30,6 @@ export default function Navbar() {
     // { name: 'Pricing', path: '/pricing' },
     // { name: 'Testimonials', path: '/testimonials' },
     // { name: 'FAQ', path: '/faq' },
-    { name: 'About', path: '/about' },
     { name: 'Contact', path: '/contact' },
   ]
 
@@ -68,17 +66,6 @@ export default function Navbar() {
               {item.name}
             </Link>
           ))}
-          <button
-            onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
-            className='ml-4'
-            aria-label='Toggle Theme'
-          >
-            {theme === 'dark' ? (
-              <Sun className='w-5 h-5 text-white' />
-            ) : (
-              <Moon className='w-5 h-5 text-white' />
-            )}
-          </button>
         </nav>
 
         {/* Mobile menu toggle */}
@@ -114,14 +101,6 @@ export default function Navbar() {
                 {item.name}
               </Link>
             ))}
-            <button
-              onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
-              className='text-left text-gray-300 mt-2'
-            >
-              {theme === 'dark'
-                ? 'Switch to Light Mode'
-                : 'Switch to Dark Mode'}
-            </button>
           </div>
         </div>
       )}

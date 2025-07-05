@@ -407,7 +407,7 @@ export default function Benefits() {
                       <Download className='h-5 w-5 mr-2' />
                       <span>Download App</span>
                     </Button>
-                    <Link href='/pricing'>
+                    {/* <Link href='/pricing'>
                       <Button
                         size='lg'
                         variant='outline'
@@ -416,7 +416,7 @@ export default function Benefits() {
                         <span>View Pricing</span>
                         <ArrowRight className='h-4 w-4 ml-2' />
                       </Button>
-                    </Link>
+                    </Link> */}
                   </div>
                 </motion.div>
               </div>
