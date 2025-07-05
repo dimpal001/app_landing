@@ -116,9 +116,6 @@ export default function Home() {
             {/* Grid pattern */}
             <div className="absolute inset-0 bg-[url('/logo.png?height=1000&width=1000')] bg-center bg-no-repeat opacity-[0.03]"></div>
 
-            {/* <div className="absolute inset-0 bg-[url('/logo.png?height=500&width=500')] bg-center opacity-[0.05]"></div> */}
-
-            {/* Animated particles */}
             <div className='absolute inset-0'>
               {Array.from({ length: 25 }).map((_, i) => (
                 <motion.div
@@ -157,26 +154,20 @@ export default function Home() {
                     Empowering Education
                   </Badge>
                   <h1 className='text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight leading-tight'>
-                    <span className='block'>Learn Boldly,</span>
-                    <span className='bg-clip-text bg-gradient-to-r from-green-400 via-indigo-400 to-blue-400'>
-                      Shine Brighter with{' '}
-                      <span className='text-green-500'>Skybeen</span>
-                    </span>
+                    Hello <span className='text-green-400'>world</span>
                   </h1>
                   <p className='text-xl md:text-2xl text-white/80 max-w-[650px]'>
-                    Skybeen is shaping a new future of learning — designed for
-                    students and teachers.
+                    Skybeen transforms how students and teachers connect with
+                    knowledge.
                     <br />
                     <br />
-                    Unlock knowledge with simple, powerful tools. Grow faster,
-                    dream bigger, achieve more.
+                    Smart tools. Seamless learning. Limitless growth.
                     <br />
                     <br />
-                    Skybeen শিক্ষাৰ নতুন দিশ মুকলি কৰে
+                    Skybeen শিক্ষাৰ দিশ পৰিবৰ্তন কৰে।
                     <br />
                     <br />
-                    সহজ, শক্তিশালী উপায়ৰে অধ্যয়ন কৰক। দ্রুত উন্নতি কৰক, ডাঙৰ
-                    সপোন দেখক, সফলতা লাভ কৰক।
+                    সহজ সঁজুলি, উন্নত অধ্যয়ন — অধিক আগবাঢ়ি যোৱা সপোনৰ ফালে।
                   </p>
                 </motion.div>
 

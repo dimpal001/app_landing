@@ -22,6 +22,7 @@ import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { useTheme } from 'next-themes'
 import Navbar from '@/components/navbar'
+import Footer from '@/components/footer'
 
 // New Highlight Card Component
 const FeatureHighlightCard = ({ icon, title, description, color }) => (
@@ -429,6 +430,8 @@ export default function Features() {
           </div>
         </section>
       </main>
+
+      <Footer />
     </div>
   )
 }

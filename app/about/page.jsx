@@ -8,6 +8,7 @@ import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { useTheme } from 'next-themes'
 import Navbar from '@/components/navbar'
+import Footer from '@/components/footer'
 
 export default function About() {
   const { theme, setTheme } = useTheme()
@@ -373,6 +374,8 @@ export default function About() {
           </div>
         </section>
       </main>
+
+      <Footer />
     </div>
   )
 }

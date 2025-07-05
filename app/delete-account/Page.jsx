@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import Navbar from '@/components/navbar'
+import Footer from '@/components/footer'
 import { Badge } from '@/components/ui/badge'
 import { AlertTriangle } from 'lucide-react'
 
@@ -54,6 +55,7 @@ export default function DeleteAccount() {
   return (
     <div className='min-h-screen bg-[#0A0A0F] text-white font-sans'>
       <Navbar />
+
       <main className='container mx-auto max-w-lg px-4 py-20'>
         <div className='text-center mb-12'>
           <Badge className='bg-red-700 text-white px-3 py-1 mb-4 flex items-center justify-center mx-auto w-fit'>
@@ -110,6 +112,8 @@ export default function DeleteAccount() {
           </button>
         </div>
       </main>
+
+      <Footer />
     </div>
   )
 }

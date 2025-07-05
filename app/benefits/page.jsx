@@ -22,6 +22,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Badge } from '@/components/ui/badge'
 import { useTheme } from 'next-themes'
 import Navbar from '@/components/navbar'
+import Footer from '@/components/footer'
 
 export default function Benefits() {
   const { theme, setTheme } = useTheme()
@@ -424,6 +425,8 @@ export default function Benefits() {
           </div>
         </section>
       </main>
+
+      <Footer />
     </div>
   )
 }

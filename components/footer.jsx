@@ -192,13 +192,13 @@ export default function Footer() {
           </p>
           <div className='mt-3 flex justify-center gap-6 text-white/80 text-sm'>
             <a
-              href='/privacy'
+              href='/privacy-policy'
               className='hover:text-green-400 transition-colors duration-200'
             >
               Privacy Policy
             </a>
             <a
-              href='/terms'
+              href='/terms-and-conditions'
               className='hover:text-green-400 transition-colors duration-200'
             >
               Terms of Service

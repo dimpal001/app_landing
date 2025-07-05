@@ -4,17 +4,15 @@ import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Badge } from '@/components/ui/badge'
 import Navbar from '@/components/navbar'
+import Footer from '@/components/footer'
 import { ScrollText } from 'lucide-react'
-import { useTheme } from 'next-themes'
 
 export default function TermsAndConditions() {
-  const { theme, setTheme } = useTheme()
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
     setMounted(true)
-    setTheme('dark')
-  }, [setTheme])
+  }, [])
 
   if (!mounted) return null
 
@@ -290,6 +288,8 @@ export default function TermsAndConditions() {
           </div>
         </section>
       </main>
+
+      <Footer />
     </div>
   )
 }
