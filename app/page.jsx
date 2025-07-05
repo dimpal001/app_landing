@@ -20,7 +20,6 @@ import { Badge } from '@/components/ui/badge'
 import { useTheme } from 'next-themes'
 import { useIsMobile } from '@/hooks/use-mobile'
 import Navbar from '@/components/navbar'
-import Footer from '@/components/footer'
 import Features from './features/page'
 
 // New Quick Stats Card Component
@@ -394,8 +393,6 @@ export default function Home() {
           <Features />
         </section>
       </main>
-
-      <Footer />
     </div>
   )
 }
